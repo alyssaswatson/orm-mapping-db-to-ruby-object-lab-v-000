@@ -79,7 +79,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade
-    IS 9, 10, 11
+    BETWEEN 1 and 11;
     SQL
 
     DB[:conn].execute(sql)
