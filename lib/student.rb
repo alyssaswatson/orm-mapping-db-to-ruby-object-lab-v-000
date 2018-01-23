@@ -103,9 +103,8 @@ class Student
     FROM students
     WHERE grade
     IS 10
-    LIMIT 1
     SQL
 
     DB[:conn].execute(sql)
-  end
+  end.first
 end
