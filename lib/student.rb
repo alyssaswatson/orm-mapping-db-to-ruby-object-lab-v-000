@@ -106,5 +106,5 @@ class Student
     SQL
 
     DB[:conn].execute(sql).first
-  end.first
+  end
 end
