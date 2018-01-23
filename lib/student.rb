@@ -103,7 +103,7 @@ class Student
     FROM students
     WHERE grade
     IS 10
-    ORDEr BY students.id
+    ORDER BY students.id
     LIMIT 1
     SQL
 
