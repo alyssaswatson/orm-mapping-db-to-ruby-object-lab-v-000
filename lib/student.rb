@@ -103,6 +103,8 @@ class Student
     FROM students
     WHERE grade
     IS 10
+    ORDEr BY students.id
+    LIMIT 1
     SQL
 
     DB[:conn].execute(sql).first
