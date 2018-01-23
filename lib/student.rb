@@ -80,5 +80,8 @@ class Student
     FROM students
     WHERE grade
     IS 9, 10, 11
+    SQL
+
+    DB[:conn].execute(sql)
   end
 end
