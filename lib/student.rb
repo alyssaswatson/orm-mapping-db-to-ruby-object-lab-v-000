@@ -105,6 +105,6 @@ class Student
     IS 10
     SQL
 
-    DB[:conn].execute(sql)
+    DB[:conn].execute(sql).first
   end.first
 end
