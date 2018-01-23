@@ -75,6 +75,10 @@ class Student
   end
 
   def students_below_12th_grade
-
+    sql = <<-SQL
+    SELECT *
+    FROM students
+    WHERE grade
+    IS 9, 10, 11
   end
 end
